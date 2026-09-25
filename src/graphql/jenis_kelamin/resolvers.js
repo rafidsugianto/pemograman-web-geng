@@ -1,4 +1,4 @@
-const JenisKelamin = require("../../models/jenis_kelamin/jenisKelaminModel");
+const JenisKelamin = require("../../models/jenis_kelamin/jenisKelamin");
 const resolvers = {
     //QUERY
     Query: {

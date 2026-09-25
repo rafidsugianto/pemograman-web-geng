@@ -3,13 +3,13 @@ const cors = require("cors");
 const app = express();
 
 const { ApolloServer } = require("@apollo/server");
-const { expressMiddleware } = require("@as-integrations/express");
+const { expressMiddleware } = require("@as-integrations/express5");
 
 // GraphQl Schema
-const typeDefs = require("./graphl/schema");
+const typeDefs = require("../graphql/jenis_kelamin/schema");
 
 //GraphQl Resolvers
-const jenisKelaminResolvers = require("./graphl/jenis_kelamin/resolvers");
+const jenisKelaminResolvers = require("../graphql/jenis_kelamin/resolvers");
 
 const resolvers = [
     jenisKelaminResolvers
