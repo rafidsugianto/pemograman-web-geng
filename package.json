@@ -1,0 +1,34 @@
+{
+  "name": "pemograman-web-geng",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafidsugianto/pemograman-web-geng.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rafidsugianto/pemograman-web-geng/issues"
+  },
+  "homepage": "https://github.com/rafidsugianto/pemograman-web-geng#readme",
+  "dependencies": {
+    "@apollo/server": "^5.5.1",
+    "@as-integrations/express5": "^1.1.2",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "graphsql": "^0.0.0",
+    "mysql2": "^3.24.4",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
